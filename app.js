@@ -125,8 +125,8 @@ ulSupreme.setAttribute("id", "supreme");
 for (let i = 0; i < duomenys.length; i++) {
   // console.log(duomenys[i]);
   let option = document.createElement("option");
-  option.value = `Vardas: ${duomenys[i].vardas}, amžius: ${duomenys[i].amzius}, miestas: ${duomenys[i].miestas}`;
-  datalistName.appendChild(option);
+  // option.value = `Vardas: ${duomenys[i].vardas}, amžius: ${duomenys[i].amzius}, miestas: ${duomenys[i].miestas}`;
+  // datalistName.appendChild(option);
   let ul = document.createElement("ul");
   let liName = document.createElement("li");
   liName.textContent = duomenys[i].vardas;
